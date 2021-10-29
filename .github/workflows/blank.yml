@@ -15,4 +15,4 @@ jobs:
         with:
           installation: false,
           record: false,
-          start: npm run parallel
+          start: npm run run-all
