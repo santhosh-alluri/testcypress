@@ -13,4 +13,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          installation: false,
+          record: false,
           start: npm run parallel
