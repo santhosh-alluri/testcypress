@@ -14,5 +14,4 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install: false,
-          record: false,
           start: npm run run-all
