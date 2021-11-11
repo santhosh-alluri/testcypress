@@ -13,7 +13,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          start: npm run e2e-test
+          start: npm run run-all
           record: true
           parallel: true
         env: 
