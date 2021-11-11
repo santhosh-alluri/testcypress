@@ -19,7 +19,6 @@ jobs:
         with:
           start: npm run run-all
           record: true
-          parallel: true
         env: 
          CYPRESS_RECORD_KEY: 2e62183d-0bf2-4bfd-8d81-602ac53e1b40
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
