@@ -13,4 +13,9 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          start: npm run parallel
+          start: npm run e2e-test
+          record: true
+          parallel: true
+        env: 
+         CYPRESS_RECORD_KEY: 2e62183d-0bf2-4bfd-8d81-602ac53e1b40
+         GITHUB_TOKEN: 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
